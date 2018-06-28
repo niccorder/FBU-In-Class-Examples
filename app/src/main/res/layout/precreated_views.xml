@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/item_1_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="An item that has a really long string to display which means it would overflow into the next column which is no bueno." />
+
+    <TextView
+        android:id="@+id/item_1_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="A smaller item." />
+
+    <TextView
+        android:id="@+id/item_2_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="A smaller item." />
+
+    <TextView
+        android:id="@+id/item_2_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="A smaller item." />
+
+    <TextView
+        android:id="@+id/item_3_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="An item that has a really long string to display which means it would overflow into the next column which is no bueno." />
+
+    <TextView
+        android:id="@+id/item_3_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="An item that has a really long string to display which means it would overflow into the next column which is no bueno." />
+
+
+</LinearLayout>
