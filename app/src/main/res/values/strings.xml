@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">In Class Examples</string>
+    <string name="list_view_button_text">List view example</string>
 </resources>
