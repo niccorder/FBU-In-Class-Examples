@@ -40,6 +40,9 @@ public class ListViewExampleActivity extends AppCompatActivity {
         listView.setAdapter(exampleAdapter);
     }
 
+    /**
+     * This is a bad adapter.
+     */
     static class BadAdapter extends BaseAdapter {
 
         private final List<String> datasource;
@@ -63,10 +66,6 @@ public class ListViewExampleActivity extends AppCompatActivity {
             return position;
         }
 
-        @Override
-        public int getItemViewType(int position) {
-            return BaseAdapter.IGNORE_ITEM_VIEW_TYPE;
-        }
 
         @Override
         @SuppressLint("ViewHolder")
