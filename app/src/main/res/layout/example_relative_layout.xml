@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- FIRST COLUMN -->
+    <LinearLayout
+        android:id="@+id/column_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/item_1_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:text="An item that has a really long string to display which means it would overflow into the next column which is no bueno." />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="2dp"
+            android:layout_marginStart="2dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/item_1_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:text="A smaller item." />
+
+    </LinearLayout>
+
+
+    <!-- SECOND COLUMN -->
+    <LinearLayout
+        android:id="@+id/column_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/column_1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/item_2_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:text="A smaller item." />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="2dp"
+            android:layout_marginStart="2dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/item_2_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:text="A smaller item." />
+    </LinearLayout>
+
+
+    <!-- THIRD COLUMN -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/column_2">
+
+        <TextView
+            android:id="@+id/item_3_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:text="An item that has a really long string to display which means it would overflow into the next column which is no bueno." />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="2dp"
+            android:layout_marginStart="2dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/item_3_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:text="An item that has a really long string to display which means it would overflow into the next column which is no bueno." />
+    </LinearLayout>
+
+</RelativeLayout>
